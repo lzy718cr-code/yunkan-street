@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "session_id": "session_20261018T041331Z_f86fd0c09856",
+  "started_at_utc": "2026-10-18T04:13:31+00:00",
+  "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+  "status": "completed",
+  "config": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\models\\best.pt",
+    "device": "cuda:0",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\engine_sessions",
+    "site_id": "SOFTWARE_VALIDATION_ONLY",
+    "capture_start": null,
+    "max_frames": null,
+    "display_fps": 1,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "dwell_threshold_seconds": 0.3,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "metadata": {
+    "engine": "YOLO / ByteTrack",
+    "error": ""
+  },
+  "timestamp_unit": "seconds in source timeline",
+  "coordinate_unit": "xyxy pixels; event/ROI/line positions normalized to frame size",
+  "files": {
+    "frames": "frames.csv",
+    "detections": "detections.csv",
+    "events": "events.csv"
+  },
+  "finished_at_utc": "2026-10-18T04:13:32+00:00",
+  "summary_file": "summary.json"
+}

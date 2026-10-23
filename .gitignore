@@ -1,0 +1,56 @@
+# ===== Python 虚拟环境与缓存 =====
+.venv/
+.venv-cpu/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ===== pip 临时目录（云瞰街巷_技术优化版 下） =====
+pip-build-tracker-*/
+pip-ephem-wheel-cache-*/
+pip-install-*/
+pip-metadata-*/
+pip-unpack-*/
+
+# ===== PyInstaller 打包产物 =====
+build/
+dist/
+
+# ===== 模型权重（许可证问题，由使用者自行下载） =====
+*.pt
+*.pth
+*.onnx
+
+# ===== 压缩包 =====
+*.zip
+*.rar
+
+# ===== 原始视频（含路人面部，隐私） =====
+data_video/
+
+# ===== 备份、日志、临时文件 =====
+*.bak
+*.bak2
+*.bak3
+*.bak*
+*.log
+tmpm4gfhau9
+
+# ===== Word 文档（报名表/承诺书/计划书含真实姓名与手机号） =====
+*.docx
+
+# ===== 非交付的大目录 / 外部素材 =====
+/pipeline/
+.material_review/
+/城垣杯/
+/材料/
+/材料_填写初稿/
+/四份材料_填写初稿/
+/云瞰街巷进度预览/
+
+# ===== 根目录下划线开头的过程产物（临时目录与散落文件） =====
+/_*
+
+# ===== 根目录个人方案 / 沟通类文档（不随代码仓库分享） =====
+/*.md

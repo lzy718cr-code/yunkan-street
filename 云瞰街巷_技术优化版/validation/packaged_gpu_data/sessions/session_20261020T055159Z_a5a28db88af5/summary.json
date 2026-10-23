@@ -1,0 +1,146 @@
+{
+  "analyzed_frames": 12,
+  "detection_observations": 262,
+  "cumulative_unique_count": 147,
+  "cumulative_by_class": {
+    "bus": 2,
+    "car": 136,
+    "truck": 4,
+    "van": 5
+  },
+  "line_counts": {
+    "up": 0,
+    "down": 0
+  },
+  "roi_dwell_events": 0,
+  "peak_current_count": 69,
+  "source_start_seconds": 0.0,
+  "source_end_seconds": 1.8333333333333333,
+  "source_duration_seconds": 1.8333333333333333,
+  "counting_notes": {
+    "current_count": "Objects detected in the current analyzed frame; includes untracked detections.",
+    "cumulative_unique_count": "Distinct tracker IDs in this source session; tracker errors can affect counts.",
+    "line_counts": "Bottom-center crosses horizontal line plus hysteresis; each ID once per direction.",
+    "roi_dwell_events": "Continuous observed presence in ROI beyond threshold; not parking or violation identification.",
+    "timestamp": "Seconds in source timeline, not wall-clock time."
+  },
+  "status": "limited",
+  "error": "",
+  "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+  "site_id": "",
+  "capture_start": null,
+  "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+  "device": "cuda:0",
+  "model_sha256": "975aefac6e72860b240d7c9ef6f4785899725373a45e4c7ab8bfa57a27c2a384",
+  "app_version": "2.1.0",
+  "inference_runtime": {
+    "device": "cuda:0",
+    "half": false
+  },
+  "source_fps": 6.0,
+  "source_frame_count": 12,
+  "processed_frames": 12,
+  "average_processing_ms": 55.095999999442334,
+  "average_processing_fps": 18.150137941232064,
+  "processing_time_notes": "Model inference plus statistics; excludes model loading, capture, export, and preview drawing.",
+  "analytics_config": {
+    "line_y": 0.5,
+    "line_hysteresis": 0.02,
+    "roi": null,
+    "dwell_threshold_seconds": 5.0,
+    "track_ttl_seconds": 30.0
+  },
+  "started_at": "2026-10-20T05:51:59.400579+00:00",
+  "finished_at": "2026-10-20T05:52:04.396664+00:00",
+  "elapsed_seconds": 4.995512199999212,
+  "config_initial": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "config_final": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "schema_version": 2,
+  "session_id": "session_20261020T055159Z_a5a28db88af5",
+  "started_at_utc": "2026-10-20T05:51:59+00:00",
+  "config": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "metadata": {
+    "engine": "YOLO / ByteTrack",
+    "error": "",
+    "model_sha256": "975aefac6e72860b240d7c9ef6f4785899725373a45e4c7ab8bfa57a27c2a384",
+    "app_version": "2.1.0",
+    "inference_runtime": {
+      "device": "cuda:0",
+      "half": false
+    }
+  },
+  "timestamp_unit": "seconds in source timeline",
+  "coordinate_unit": "xyxy pixels; event/ROI/line positions normalized to frame size",
+  "frame_parameter_notes": "Per-frame model-call parameters; imgsz is the requested size. Blank parameter cells mean the caller did not supply a snapshot.",
+  "files": {
+    "frames": "frames.csv",
+    "detections": "detections.csv",
+    "events": "events.csv"
+  },
+  "finished_at_utc": "2026-10-20T05:52:04+00:00",
+  "recorded_frames": 12,
+  "session_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions\\session_20261020T055159Z_a5a28db88af5"
+}

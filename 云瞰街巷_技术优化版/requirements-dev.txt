@@ -1,0 +1,4 @@
+-r requirements.txt
+pyinstaller==6.14.2
+pyinstaller-hooks-contrib==2026.8
+pytest==8.4.2

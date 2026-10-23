@@ -1,0 +1,1 @@
+﻿frame_index,source_time_seconds,width,height,processing_ms,current_count,tracked_current_count,cumulative_unique_count,counts_by_class_json,cumulative_by_class_json,line_up,line_down,roi_current_count,dwell_current_count,dwell_seconds_by_track_json,conf,iou,imgsz,density_threshold

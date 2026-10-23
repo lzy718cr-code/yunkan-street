@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "sessions": [
+    {
+      "session_id": "session_20261018T041331Z_f86fd0c09856",
+      "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+      "started_at_utc": "2026-10-18T04:13:31+00:00",
+      "finished_at_utc": "2026-10-18T04:13:32+00:00",
+      "status": "completed",
+      "session_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\engine_sessions\\session_20261018T041331Z_f86fd0c09856",
+      "summary_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\engine_sessions\\session_20261018T041331Z_f86fd0c09856\\summary.json",
+      "analyzed_frames": 12,
+      "cumulative_unique_count": 147,
+      "line_counts": {
+        "up": 0,
+        "down": 0
+      },
+      "peak_current_count": 69
+    },
+    {
+      "session_id": "session_20261018T041331Z_64fa813e4522",
+      "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+      "started_at_utc": "2026-10-18T04:13:31+00:00",
+      "finished_at_utc": "2026-10-18T04:13:31+00:00",
+      "status": "completed",
+      "session_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\engine_sessions\\session_20261018T041331Z_64fa813e4522",
+      "summary_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\engine_sessions\\session_20261018T041331Z_64fa813e4522\\summary.json",
+      "analyzed_frames": 12,
+      "cumulative_unique_count": 147,
+      "line_counts": {
+        "up": 0,
+        "down": 0
+      },
+      "peak_current_count": 69
+    }
+  ]
+}

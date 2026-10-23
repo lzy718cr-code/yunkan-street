@@ -1,0 +1,142 @@
+{
+  "analyzed_frames": 0,
+  "detection_observations": 0,
+  "cumulative_unique_count": 0,
+  "cumulative_by_class": {},
+  "line_counts": {
+    "up": 0,
+    "down": 0
+  },
+  "roi_dwell_events": 0,
+  "peak_current_count": 0,
+  "source_start_seconds": null,
+  "source_end_seconds": null,
+  "source_duration_seconds": 0.0,
+  "counting_notes": {
+    "current_count": "Objects detected in the current analyzed frame; includes untracked detections.",
+    "cumulative_unique_count": "Distinct tracker IDs in this source session; tracker errors can affect counts.",
+    "line_counts": "Bottom-center crosses horizontal line plus hysteresis; each ID once per direction.",
+    "roi_dwell_events": "Continuous observed presence in ROI beyond threshold; not parking or violation identification.",
+    "timestamp": "Seconds in source timeline, not wall-clock time."
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"traffic_app\\engine.py\", line 451, in run\n    self._process_frame(model, frame, frame_index, timestamp, source_fps, total_frames)\n  File \"traffic_app\\engine.py\", line 328, in _process_frame\n    results = model.track(frame, tracker=\"bytetrack.yaml\", persist=True, **options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"ultralytics\\engine\\model.py\", line 573, in track\n    from ultralytics.trackers import register_tracker\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"ultralytics\\trackers\\__init__.py\", line 3, in <module>\n    from .bot_sort import BOTSORT\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"ultralytics\\trackers\\bot_sort.py\", line 15, in <module>\n    from .byte_tracker import BYTETracker, STrack\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"ultralytics\\trackers\\byte_tracker.py\", line 12, in <module>\n    from .utils import matching\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"ultralytics\\trackers\\utils\\matching.py\", line 5, in <module>\n    from scipy.spatial.distance import cdist\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\spatial\\__init__.py\", line 111, in <module>\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\spatial\\_kdtree.py\", line 7, in <module>\n  File \"scipy/spatial/_ckdtree.pyx\", line 11, in init scipy.spatial._ckdtree\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\sparse\\__init__.py\", line 251, in <module>\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\sparse\\_csr.py\", line 15, in <module>\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\sparse\\_compressed.py\", line 8, in <module>\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\_lib\\_util.py\", line 16, in <module>\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\_lib\\_array_api.py\", line 24, in <module>\n  File \"PyInstaller\\loader\\pyimod02_importers.py\", line 457, in exec_module\n  File \"scipy\\_external\\array_api_compat\\numpy\\__init__.py\", line 25, in <module>\nModuleNotFoundError: No module named 'scipy._external.array_api_compat.numpy.fft'\n",
+  "status": "failed",
+  "error": "ModuleNotFoundError: No module named 'scipy._external.array_api_compat.numpy.fft'",
+  "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+  "site_id": "",
+  "capture_start": null,
+  "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+  "device": "cuda:0",
+  "model_sha256": "975aefac6e72860b240d7c9ef6f4785899725373a45e4c7ab8bfa57a27c2a384",
+  "app_version": "2.1.0",
+  "inference_runtime": {
+    "device": "cuda:0",
+    "half": false
+  },
+  "source_fps": 6.0,
+  "source_frame_count": 12,
+  "processed_frames": 0,
+  "average_processing_ms": 0.0,
+  "average_processing_fps": 0.0,
+  "processing_time_notes": "Model inference plus statistics; excludes model loading, capture, export, and preview drawing.",
+  "analytics_config": {
+    "line_y": 0.5,
+    "line_hysteresis": 0.02,
+    "roi": null,
+    "dwell_threshold_seconds": 5.0,
+    "track_ttl_seconds": 30.0
+  },
+  "started_at": "2026-10-20T00:23:40.654903+00:00",
+  "finished_at": "2026-10-20T00:23:54.551793+00:00",
+  "elapsed_seconds": 13.89698640000006,
+  "config_initial": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "config_final": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "schema_version": 2,
+  "session_id": "session_20261020T002340Z_088f49a5ff1c",
+  "started_at_utc": "2026-10-20T00:23:40+00:00",
+  "config": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "metadata": {
+    "engine": "YOLO / ByteTrack",
+    "error": "ModuleNotFoundError: No module named 'scipy._external.array_api_compat.numpy.fft'",
+    "model_sha256": "975aefac6e72860b240d7c9ef6f4785899725373a45e4c7ab8bfa57a27c2a384",
+    "app_version": "2.1.0",
+    "inference_runtime": {
+      "device": "cuda:0",
+      "half": false
+    }
+  },
+  "timestamp_unit": "seconds in source timeline",
+  "coordinate_unit": "xyxy pixels; event/ROI/line positions normalized to frame size",
+  "frame_parameter_notes": "Per-frame model-call parameters; imgsz is the requested size. Blank parameter cells mean the caller did not supply a snapshot.",
+  "files": {
+    "frames": "frames.csv",
+    "detections": "detections.csv",
+    "events": "events.csv"
+  },
+  "finished_at_utc": "2026-10-20T00:23:54+00:00",
+  "recorded_frames": 0,
+  "session_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions\\session_20261020T002340Z_088f49a5ff1c"
+}

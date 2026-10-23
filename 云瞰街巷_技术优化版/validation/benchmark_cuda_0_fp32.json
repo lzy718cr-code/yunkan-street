@@ -1,0 +1,105 @@
+{
+  "device": "cuda:0",
+  "precision": "FP32",
+  "settings": {
+    "imgsz": 640,
+    "conf": 0.5,
+    "iou": 0.45,
+    "half": false
+  },
+  "warmup_iterations": 2,
+  "measured_iterations": 5,
+  "mean_track_and_stats_ms": 13.858579999941867,
+  "median_track_and_stats_ms": 13.741999999865584,
+  "throughput_frames_per_second": 72.15746490651962,
+  "timing_includes": "preprocess + YOLO inference + postprocess + ByteTrack + tensor extraction + analytics; CUDA synchronized",
+  "timing_excludes": "model loading, warmup, source decoding, CSV export, preview drawing",
+  "accuracy_notes": "Unlabelled software runtime check only; no mAP or real-world accuracy claim.",
+  "rows": [
+    {
+      "iteration": 1,
+      "sample": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\.material_review\\raw\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\02 素材源码\\典型数据集样本\\图片1.png",
+      "source_shape_hwc": [
+        337,
+        599,
+        3
+      ],
+      "track_and_stats_ms": 14.195499999914318,
+      "current_count": 73,
+      "tracked_current_count": 73,
+      "model_reported_ms": {
+        "preprocess": 0.9371000001010543,
+        "inference": 9.956499999816515,
+        "postprocess": 0.860600000123668
+      }
+    },
+    {
+      "iteration": 2,
+      "sample": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\.material_review\\raw\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\02 素材源码\\典型数据集样本\\图片2.png",
+      "source_shape_hwc": [
+        331,
+        589,
+        3
+      ],
+      "track_and_stats_ms": 13.741999999865584,
+      "current_count": 3,
+      "tracked_current_count": 3,
+      "model_reported_ms": {
+        "preprocess": 0.9360000001379376,
+        "inference": 9.545200000047771,
+        "postprocess": 0.8637999999336898
+      }
+    },
+    {
+      "iteration": 3,
+      "sample": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\.material_review\\raw\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\02 素材源码\\典型数据集样本\\图片3.png",
+      "source_shape_hwc": [
+        350,
+        599,
+        3
+      ],
+      "track_and_stats_ms": 13.658500000019558,
+      "current_count": 1,
+      "tracked_current_count": 1,
+      "model_reported_ms": {
+        "preprocess": 0.8708000000297034,
+        "inference": 9.940800000094896,
+        "postprocess": 0.9385999999267369
+      }
+    },
+    {
+      "iteration": 4,
+      "sample": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\.material_review\\raw\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\02 素材源码\\典型数据集样本\\图片4.png",
+      "source_shape_hwc": [
+        340,
+        586,
+        3
+      ],
+      "track_and_stats_ms": 14.102599999887389,
+      "current_count": 7,
+      "tracked_current_count": 7,
+      "model_reported_ms": {
+        "preprocess": 0.8832000000893458,
+        "inference": 9.633800000074189,
+        "postprocess": 0.8538000001863111
+      }
+    },
+    {
+      "iteration": 5,
+      "sample": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\.material_review\\raw\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\02 素材源码\\典型数据集样本\\图片5.png",
+      "source_shape_hwc": [
+        348,
+        599,
+        3
+      ],
+      "track_and_stats_ms": 13.594300000022486,
+      "current_count": 4,
+      "tracked_current_count": 4,
+      "model_reported_ms": {
+        "preprocess": 0.8854999998675339,
+        "inference": 9.902999999894746,
+        "postprocess": 0.7858999999825755
+      }
+    }
+  ]
+}

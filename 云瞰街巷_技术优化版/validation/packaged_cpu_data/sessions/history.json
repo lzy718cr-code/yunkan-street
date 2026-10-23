@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "sessions": [
+    {
+      "session_id": "session_20261020T055212Z_28d4919e1dbb",
+      "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+      "started_at_utc": "2026-10-20T05:52:12+00:00",
+      "finished_at_utc": "2026-10-20T05:52:17+00:00",
+      "status": "limited",
+      "session_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_cpu_data\\sessions\\session_20261020T055212Z_28d4919e1dbb",
+      "summary_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_cpu_data\\sessions\\session_20261020T055212Z_28d4919e1dbb\\summary.json",
+      "analyzed_frames": 12,
+      "cumulative_unique_count": 147,
+      "line_counts": {
+        "up": 0,
+        "down": 0
+      },
+      "peak_current_count": 69
+    }
+  ]
+}

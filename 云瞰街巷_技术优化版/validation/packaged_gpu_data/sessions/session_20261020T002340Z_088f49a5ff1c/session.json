@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "session_id": "session_20261020T002340Z_088f49a5ff1c",
+  "started_at_utc": "2026-10-20T00:23:40+00:00",
+  "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+  "status": "failed",
+  "config": {
+    "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\synthetic_photos_software_validation.avi",
+    "model_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\dist\\云瞰街巷\\_internal\\models\\best.pt",
+    "device": "auto",
+    "conf": 0.5,
+    "iou": 0.45,
+    "imgsz": 640,
+    "density_threshold": 10,
+    "record_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\packaged_gpu_data\\sessions",
+    "site_id": "",
+    "capture_start": null,
+    "max_frames": 12,
+    "display_fps": 15.0,
+    "half": false,
+    "analytics_config": {
+      "line_y": 0.5,
+      "line_hysteresis": 0.02,
+      "roi": null,
+      "dwell_threshold_seconds": 5.0,
+      "track_ttl_seconds": 30.0
+    }
+  },
+  "metadata": {
+    "engine": "YOLO / ByteTrack",
+    "error": "ModuleNotFoundError: No module named 'scipy._external.array_api_compat.numpy.fft'",
+    "model_sha256": "975aefac6e72860b240d7c9ef6f4785899725373a45e4c7ab8bfa57a27c2a384",
+    "app_version": "2.1.0",
+    "inference_runtime": {
+      "device": "cuda:0",
+      "half": false
+    }
+  },
+  "timestamp_unit": "seconds in source timeline",
+  "coordinate_unit": "xyxy pixels; event/ROI/line positions normalized to frame size",
+  "frame_parameter_notes": "Per-frame model-call parameters; imgsz is the requested size. Blank parameter cells mean the caller did not supply a snapshot.",
+  "files": {
+    "frames": "frames.csv",
+    "detections": "detections.csv",
+    "events": "events.csv"
+  },
+  "finished_at_utc": "2026-10-20T00:23:54+00:00",
+  "summary_file": "summary.json"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "sessions": [
+    {
+      "session_id": "session_20261018T041152Z_7dd0c29d63ce",
+      "source": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\.material_review\\raw\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\大数据应用_李吉坤 _总文件夹\\02 素材源码\\典型数据集样本\\图片1.png",
+      "started_at_utc": "2026-10-18T04:11:52+00:00",
+      "finished_at_utc": "2026-10-18T04:12:08+00:00",
+      "status": "completed",
+      "session_dir": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\gui_data\\sessions\\session_20261018T041152Z_7dd0c29d63ce",
+      "summary_path": "C:\\Users\\96901\\Desktop\\城垣杯加yolo\\云瞰街巷_技术优化版\\validation\\gui_data\\sessions\\session_20261018T041152Z_7dd0c29d63ce\\summary.json",
+      "analyzed_frames": 1,
+      "cumulative_unique_count": 0,
+      "line_counts": {
+        "up": 0,
+        "down": 0
+      },
+      "peak_current_count": 73
+    }
+  ]
+}
